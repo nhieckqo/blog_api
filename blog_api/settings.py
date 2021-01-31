@@ -128,6 +128,8 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
+SITE_ID = 1
+
 # Logs the email message to the console
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
